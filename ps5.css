@@ -1,99 +1,143 @@
-.controller.ds5 {
-    background-image: url('base.png');
-    width: 900px;
+/* ---- BASIC CONTROLLER SETUP ---- */
+.controller.ds {
+    background: url("https://raw.githubusercontent.com/colegraves976-eng/ps5-controller-skin/main/ps5_atlas.png") no-repeat;
+    width: 1000px;
     height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
     position: relative;
+    background-size: 1000px 600px;
 }
 
-/* Left Stick */
-.ds5 .stick.left {
-    background-image: url('left-stick.png');
-    width: 140px;
-    height: 140px;
+/* Base controller image (centered) */
+.controller.ds .base {
+    background: inherit;
+    background-position: 0px 0px;
+    width: 1000px;
+    height: 600px;
     position: absolute;
-    left: 205px;
-    top: 315px;
-    background-size: contain;
 }
 
-/* Right Stick */
-.ds5 .stick.right {
-    background-image: url('right-stick.png');
-    width: 140px;
-    height: 140px;
+/* ---- FACE BUTTONS ---- */
+/* Cross */
+.controller.ds .button.cross {
+    background: inherit;
+    background-position: -800px -0px;
+    width: 64px;
+    height: 64px;
+    left: 760px;
+    top: 330px;
     position: absolute;
-    left: 555px;
-    top: 315px;
-    background-size: contain;
 }
 
-/* D-Pad */
-.ds5 .dpad {
-    background-image: url('dpad.png');
-    width: 190px;
-    height: 190px;
+/* Circle */
+.controller.ds .button.circle {
+    background: inherit;
+    background-position: -865px -0px;
+    width: 64px;
+    height: 64px;
+    left: 820px;
+    top: 270px;
     position: absolute;
-    left: 160px;
-    top: 185px;
-    background-size: contain;
 }
 
-/* Face Buttons (Circle, Cross, Square, Triangle) */
-.ds5 .face {
-    background-image: url('face-buttons.png');
-    width: 190px;
-    height: 190px;
+/* Square */
+.controller.ds .button.square {
+    background: inherit;
+    background-position: -735px -0px;
+    width: 64px;
+    height: 64px;
+    left: 700px;
+    top: 270px;
     position: absolute;
-    left: 590px;
-    top: 185px;
-    background-size: contain;
 }
 
-/* Touchpad */
-.ds5 .touchpad {
-    background-image: url('touchpad.png');
-    width: 420px;
-    height: 240px;
+/* Triangle */
+.controller.ds .button.triangle {
+    background: inherit;
+    background-position: -670px -0px;
+    width: 64px;
+    height: 64px;
+    left: 760px;
+    top: 210px;
     position: absolute;
-    left: 245px;
+}
+
+/* ---- DPAD ---- */
+.controller.ds .dpad {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    top: 240px;
+}
+
+.controller.ds .dpad .up {
+    background: inherit;
+    background-position: -100px -500px;
+    width: 64px;
+    height: 64px;
+    left: 70px;
+    top: 0px;
+    position: absolute;
+}
+
+.controller.ds .dpad .down {
+    background: inherit;
+    background-position: -170px -500px;
+    width: 64px;
+    height: 64px;
+    left: 70px;
+    top: 140px;
+    position: absolute;
+}
+
+.controller.ds .dpad .left {
+    background: inherit;
+    background-position: -30px -500px;
+    width: 64px;
+    height: 64px;
+    left: 0px;
     top: 70px;
-    background-size: contain;
-}
-
-/* Bumpers (L1 / R1) */
-.ds5 .bumper {
-    background-image: url('bumpers.png');
-    width: 900px;
-    height: 140px;
     position: absolute;
-    left: 0;
-    top: -10px;
-    background-size: contain;
 }
 
-/* Triggers (L2 / R2) */
-.ds5 .trigger {
-    background-image: url('triggers.png');
-    width: 900px;
-    height: 160px;
+.controller.ds .dpad .right {
+    background: inherit;
+    background-position: -240px -500px;
+    width: 64px;
+    height: 64px;
+    left: 140px;
+    top: 70px;
     position: absolute;
-    left: 0;
-    top: -70px;
-    background-size: contain;
 }
 
-/* Buttons pressed states (optional) */
-.ds5 .face.pressed,
-.ds5 .dpad.pressed,
-.ds5 .stick.left.pressed,
-.ds5 .stick.right.pressed {
-    filter: brightness(60%);
+/* ---- THUMBSTICKS ---- */
+.controller.ds .stick.left {
+    background: inherit;
+    background-position: -300px -500px;
+    width: 100px;
+    height: 100px;
+    left: 320px;
+    top: 360px;
+    position: absolute;
 }
 
-/* Disconnected */
-.ds5.disconnected {
-    background-image: url('disconnected.png');
-    opacity: 0.3;
+.controller.ds .stick.right {
+    background: inherit;
+    background-position: -410px -500px;
+    width: 100px;
+    height: 100px;
+    left: 560px;
+    top: 360px;
+    position: absolute;
+}
+
+/* ---- TOUCHPAD ---- */
+.controller.ds .touchpad {
+    background: inherit;
+    background-position: -520px -500px;
+    width: 250px;
+    height: 150px;
+    left: 380px;
+    top: 130px;
+    position: absolute;
 }
