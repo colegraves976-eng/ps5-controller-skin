@@ -1,0 +1,140 @@
+{
+  "image_0014_Body_White_Left.png": {
+    "x": 8,
+    "y": 8,
+    "width": 573,
+    "height": 1141
+  },
+  "image_0022_Body_White_Right.png": {
+    "x": 589,
+    "y": 8,
+    "width": 574,
+    "height": 1140
+  },
+  "image_0021_Body_Black_Frame.png": {
+    "x": 1171,
+    "y": 8,
+    "width": 1513,
+    "height": 895
+  },
+  "image_0015_Touchpad_White_Center.png": {
+    "x": 8,
+    "y": 1157,
+    "width": 835,
+    "height": 389
+  },
+  "image_0018_Touchpad_Blue_Light.png": {
+    "x": 851,
+    "y": 1157,
+    "width": 760,
+    "height": 387
+  },
+  "image_0011_Centre_Circle.png": {
+    "x": 1619,
+    "y": 1157,
+    "width": 151,
+    "height": 50
+  },
+  "image_0013_Logo.png": {
+    "x": 1778,
+    "y": 1157,
+    "width": 128,
+    "height": 98
+  },
+  "image_0003_Dpad_Up.png": {
+    "x": 8,
+    "y": 1554,
+    "width": 112,
+    "height": 139
+  },
+  "image_0001_Dpad_Down.png": {
+    "x": 128,
+    "y": 1554,
+    "width": 114,
+    "height": 138
+  },
+  "image_0004_Dpad_Left.png": {
+    "x": 250,
+    "y": 1554,
+    "width": 137,
+    "height": 114
+  },
+  "image_0002_Dpad_Right.png": {
+    "x": 395,
+    "y": 1554,
+    "width": 138,
+    "height": 113
+  },
+  "image_0010_Button_Square.png": {
+    "x": 8,
+    "y": 1701,
+    "width": 121,
+    "height": 121
+  },
+  "image_0007_Button_Cross.png": {
+    "x": 137,
+    "y": 1701,
+    "width": 121,
+    "height": 121
+  },
+  "image_0008_Button_Circle.png": {
+    "x": 266,
+    "y": 1701,
+    "width": 118,
+    "height": 118
+  },
+  "image_0009_Button_Triangle.png": {
+    "x": 392,
+    "y": 1701,
+    "width": 119,
+    "height": 119
+  },
+  "image_0017_Analog_Left.png": {
+    "x": 8,
+    "y": 1830,
+    "width": 238,
+    "height": 239
+  },
+  "image_0016_Analog_Right.png": {
+    "x": 254,
+    "y": 1830,
+    "width": 239,
+    "height": 238
+  },
+  "image_0000_Small_Menu_Left.png": {
+    "x": 501,
+    "y": 1830,
+    "width": 52,
+    "height": 84
+  },
+  "image_0020_Small_Menu_Right.png": {
+    "x": 561,
+    "y": 1830,
+    "width": 54,
+    "height": 85
+  },
+  "image_0006_Button_Top_Markings_Left.png": {
+    "x": 623,
+    "y": 1830,
+    "width": 35,
+    "height": 21
+  },
+  "image_0019_Button_Top_Markings_Right.png": {
+    "x": 666,
+    "y": 1830,
+    "width": 25,
+    "height": 22
+  },
+  "image_0005_Top_Menu_Right.png": {
+    "x": 699,
+    "y": 1830,
+    "width": 242,
+    "height": 83
+  },
+  "image_0012_Top_Menu_Right.png": {
+    "x": 949,
+    "y": 1830,
+    "width": 241,
+    "height": 83
+  }
+}
