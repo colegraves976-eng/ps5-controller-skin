@@ -1,6 +1,148 @@
-/* Auto‑generated placeholder CSS */
+/* ---- PS5 CONTROLLER SKIN (Gamepad Viewer) ---- */
+/* Requires ps5_atlas.png in the same GitHub folder */
+
 .controller.ds5 {
-    background-image: url('ps5_atlas.png');
+    background: none !important;
     width: 756px;
-    height: 3531px;
+    height: 431px;
+    position: relative;
+}
+
+/* Base controller shell */
+.ds5 .shell {
+    background-image: url('ps5_atlas.png');
+    background-position: 0px 0px;
+    width: 756px;
+    height: 431px;
+    position: absolute;
+}
+
+/* Touchpad */
+.ds5 .touchpad {
+    background-image: url('ps5_atlas.png');
+    background-position: 0px -450px;
+    width: 330px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 210px;
+}
+
+/* D-PAD */
+.ds5 .dpad {
+    background-image: url('ps5_atlas.png');
+    background-position: -5px -700px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+/* Action Buttons (Cross / Circle / Square / Triangle) */
+.ds5 .abxy {
+    background-image: url('ps5_atlas.png');
+    background-position: -250px -700px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    right: 110px;
+}
+
+/* Left Stick */
+.ds5 .stick.left {
+    background-image: url('ps5_atlas.png');
+    background-position: -10px -1000px;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 260px;
+    left: 160px;
+}
+
+/* Right Stick */
+.ds5 .stick.right {
+    background-image: url('ps5_atlas.png');
+    background-position: -200px -1000px;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 260px;
+    right: 160px;
+}
+
+/* Bumpers (L1 / R1) */
+.ds5 .bumper.left {
+    background-image: url('ps5_atlas.png');
+    background-position: 0px -1250px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.ds5 .bumper.right {
+    background-image: url('ps5_atlas.png');
+    background-position: -310px -1250px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+}
+
+/* Triggers (L2 / R2) */
+.ds5 .trigger.left {
+    background-image: url('ps5_atlas.png');
+    background-position: 0px -1350px;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: -20px;
+    left: 80px;
+}
+
+.ds5 .trigger.right {
+    background-image: url('ps5_atlas.png');
+    background-position: -310px -1350px;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: -20px;
+    right: 80px;
+}
+
+/* PS Button */
+.ds5 .ps {
+    background-image: url('ps5_atlas.png');
+    background-position: -130px -1600px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 230px;
+    left: 335px;
+}
+
+/* Create Button (left small) */
+.ds5 .select {
+    background-image: url('ps5_atlas.png');
+    background-position: -10px -1600px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 145px;
+    left: 175px;
+}
+
+/* Options Button (right small) */
+.ds5 .start {
+    background-image: url('ps5_atlas.png');
+    background-position: -240px -1600px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 145px;
+    right: 175px;
 }
