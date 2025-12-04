@@ -1,0 +1,170 @@
+/* Auto-generated GPV v2 CSS for ps5_atlas_final.png */
+:root {
+  --atlas: url('ps5_atlas_final.png');
+  --press-translate: 2px;
+  --press-scale: 0.98;
+}
+
+.controller.ps5 { position: relative; width: 900px; height: 700px; background: none; }
+.controller.ps5 .asset { position: absolute; background-image: var(--atlas); background-repeat: no-repeat; pointer-events: none; }
+
+.controller.ps5 .body-white-left {
+  width: 573px;
+  height: 1141px;
+  background-position: -8px -8px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .body-white-right {
+  width: 574px;
+  height: 1140px;
+  background-position: -589px -8px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .body-black-frame {
+  width: 1513px;
+  height: 895px;
+  background-position: -1171px -8px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .touchpad-white-center {
+  width: 835px;
+  height: 389px;
+  background-position: -8px -1157px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .touchpad-blue-light {
+  width: 760px;
+  height: 387px;
+  background-position: -851px -1157px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .centre-circle {
+  width: 151px;
+  height: 50px;
+  background-position: -1619px -1157px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .logo {
+  width: 128px;
+  height: 98px;
+  background-position: -1778px -1157px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .dpad-up {
+  width: 112px;
+  height: 139px;
+  background-position: -8px -1554px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .dpad-down {
+  width: 114px;
+  height: 138px;
+  background-position: -128px -1554px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .dpad-left {
+  width: 137px;
+  height: 114px;
+  background-position: -250px -1554px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .dpad-right {
+  width: 138px;
+  height: 113px;
+  background-position: -395px -1554px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-square {
+  width: 121px;
+  height: 121px;
+  background-position: -8px -1701px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-cross {
+  width: 121px;
+  height: 121px;
+  background-position: -137px -1701px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-circle {
+  width: 118px;
+  height: 118px;
+  background-position: -266px -1701px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-triangle {
+  width: 119px;
+  height: 119px;
+  background-position: -392px -1701px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .analog-left {
+  width: 238px;
+  height: 239px;
+  background-position: -8px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .analog-right {
+  width: 239px;
+  height: 238px;
+  background-position: -254px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .small-menu-left {
+  width: 52px;
+  height: 84px;
+  background-position: -501px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .small-menu-right {
+  width: 54px;
+  height: 85px;
+  background-position: -561px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-top-markings-left {
+  width: 35px;
+  height: 21px;
+  background-position: -623px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .button-top-markings-right {
+  width: 25px;
+  height: 22px;
+  background-position: -666px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .top-menu-right {
+  width: 242px;
+  height: 83px;
+  background-position: -699px -1830px;
+  left: 0px; top: 0px;
+}
+
+.controller.ps5 .top-menu-right {
+  width: 241px;
+  height: 83px;
+  background-position: -949px -1830px;
+  left: 0px; top: 0px;
+}
