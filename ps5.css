@@ -1,115 +1,164 @@
-/* ===========================
-   PS5 CONTROLLER – OPTION A
-   SINGLE IMAGE ATLAS SETUP
-   =========================== */
+:root {
+  --atlas: url('ps5_vertical_atlas.png');
+  --press-translate: 2px;
+  --press-scale: 0.98;
+}
 
 .controller.ps5 {
-    position: relative;
-    width: 800px;       /* adjust if needed */
-    height: 500px;      /* adjust if needed */
-    background-image: url("ps5_atlas.png");
-    background-repeat: no-repeat;
+  position: relative;
+  width: 1513px;
+  height: 600px; /* adjust visual container height in GPV as needed */
+  background: none;
 }
 
-/* ======= BASE ======= */
-.ps5 .base {
-    position: absolute;
-    width: 800px;
-    height: 500px;
-    background-image: url("ps5_atlas.png");
-    background-position: 0px 0px;    /* base section of atlas */
+/* Utility for each sprite */
+.controller.ps5 .asset {
+  position: absolute;
+  background-image: var(--atlas);
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
-/* ======= TOUCHPAD ======= */
-.ps5 .touchpad {
-    position: absolute;
-    width: 190px;
-    height: 120px;
-    left: 305px;
-    top: 100px;
-    background-image: url("ps5_atlas.png");
-    background-position: -800px 0px;   /* adjust based on atlas */
+.controller.ps5 .small-menu-left {
+  width: 52px;
+  height: 84px;
+  background-position: -0px -0px;
 }
 
-/* ======= BUTTONS (Shape Buttons) ======= */
-.ps5 .button {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background-image: url("ps5_atlas.png");
+.controller.ps5 .dpad-down {
+  width: 114px;
+  height: 138px;
+  background-position: -0px -84px;
 }
 
-.ps5 .button.cross {
-    left: 600px;
-    top: 250px;
-    background-position: -800px -120px;
+.controller.ps5 .dpad-right {
+  width: 138px;
+  height: 113px;
+  background-position: -0px -222px;
 }
 
-.ps5 .button.circle {
-    left: 650px;
-    top: 200px;
-    background-position: -880px -120px;
+.controller.ps5 .dpad-up {
+  width: 112px;
+  height: 139px;
+  background-position: -0px -335px;
 }
 
-.ps5 .button.square {
-    left: 560px;
-    top: 200px;
-    background-position: -960px -120px;
+.controller.ps5 .dpad-left {
+  width: 137px;
+  height: 114px;
+  background-position: -0px -474px;
 }
 
-.ps5 .button.triangle {
-    left: 600px;
-    top: 150px;
-    background-position: -1040px -120px;
+.controller.ps5 .top-menu-right {
+  width: 242px;
+  height: 83px;
+  background-position: -0px -588px;
 }
 
-/* ======= D-PAD ======= */
-.ps5 .dpad {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 80px;
-    top: 190px;
-    background-image: url("ps5_atlas.png");
-    background-position: -800px -240px;
+.controller.ps5 .button-top-markings-left {
+  width: 35px;
+  height: 21px;
+  background-position: -0px -671px;
 }
 
-/* ======= STICKS ======= */
-.ps5 .stick {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    background-image: url("ps5_atlas.png");
+.controller.ps5 .button-cross {
+  width: 121px;
+  height: 121px;
+  background-position: -0px -692px;
 }
 
-.ps5 .stick.left {
-    left: 220px;
-    top: 280px;
-    background-position: -950px -240px;
+.controller.ps5 .button-circle {
+  width: 118px;
+  height: 118px;
+  background-position: -0px -813px;
 }
 
-.ps5 .stick.right {
-    left: 450px;
-    top: 280px;
-    background-position: -1080px -240px;
+.controller.ps5 .button-triangle {
+  width: 119px;
+  height: 119px;
+  background-position: -0px -931px;
 }
 
-/* ======= TRIGGERS ======= */
-.ps5 .trigger {
-    position: absolute;
-    width: 200px;
-    height: 80px;
-    background-image: url("ps5_atlas.png");
+.controller.ps5 .button-square {
+  width: 121px;
+  height: 121px;
+  background-position: -0px -1050px;
 }
 
-.ps5 .trigger.l2 {
-    left: 100px;
-    top: 0px;
-    background-position: -800px -390px;
+.controller.ps5 .centre-circle {
+  width: 151px;
+  height: 50px;
+  background-position: -0px -1171px;
 }
 
-.ps5 .trigger.r2 {
-    left: 510px;
-    top: 0px;
-    background-position: -1000px -390px;
+.controller.ps5 .top-menu-right {
+  width: 241px;
+  height: 83px;
+  background-position: -0px -1221px;
+}
+
+.controller.ps5 .logo {
+  width: 128px;
+  height: 98px;
+  background-position: -0px -1304px;
+}
+
+.controller.ps5 .body-white-left {
+  width: 573px;
+  height: 1141px;
+  background-position: -0px -1402px;
+}
+
+.controller.ps5 .touchpad-white-center {
+  width: 835px;
+  height: 389px;
+  background-position: -0px -2543px;
+}
+
+.controller.ps5 .analog-right {
+  width: 239px;
+  height: 238px;
+  background-position: -0px -2932px;
+}
+
+.controller.ps5 .analog-left {
+  width: 238px;
+  height: 239px;
+  background-position: -0px -3170px;
+}
+
+.controller.ps5 .touchpad-blue-light {
+  width: 760px;
+  height: 387px;
+  background-position: -0px -3409px;
+}
+
+.controller.ps5 .button-top-markings-right {
+  width: 25px;
+  height: 22px;
+  background-position: -0px -3796px;
+}
+
+.controller.ps5 .small-menu-right {
+  width: 54px;
+  height: 85px;
+  background-position: -0px -3818px;
+}
+
+.controller.ps5 .body-black-frame-size {
+  width: 903px;
+  height: 713px;
+  background-position: -0px -3903px;
+}
+
+.controller.ps5 .body-black-frame {
+  width: 1513px;
+  height: 895px;
+  background-position: -0px -4616px;
+}
+
+.controller.ps5 .body-white-right {
+  width: 574px;
+  height: 1140px;
+  background-position: -0px -5511px;
 }
